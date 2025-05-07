@@ -7,23 +7,77 @@
   <meta name="description" content="自己紹介サイトです。" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- CSSファイルの適用 -->
+   <link rel="stylesheet" href="./css/styles.css">
   
 </head>
 
 <body>
   <div class="page-wrapper">
     <!-- ヘッダー -->
+     <header>
+      <img class="header-logo" src="./img/logo.png" alt="会社のロゴイメージ">
+      <nav>
+        <ul>
+          <li><a href="#profile">Profile</a></li>
+          <li><a href="#articles">Articles</a></li>
+        </ul>
+      </nav>
+     </header>
 
     <main class="main-content">
       <!-- メインビジュアル -->
-
+       <img src="./img/main_visual.jpg" alt="メインビジュアル" class="main-visual" />
       <!-- プロフィール セクション -->
-
+       <section class="section" id="profile">
+        <h2 class="section-title">Profile</h2>
+        <div class="profile">
+          <img src="./img/profile.png" alt="profile" class="profile-image">
+          <div class="profile-info">
+            <h2>TARO RARETECH</h2>
+            <P>
+              出身： 東京都<br>
+              趣味： アプリ開発、散歩（公園を中心に都内をまわっています）<br>
+              技術： Python、Django、Javascript、AWS、GCP<br>
+              主な仕事： マネジメント、バックエンド開発
+            </P>
+          </div>
+        </div>
+       </section>
+       
       <!-- 記事 セクション -->
+       <section class="section" id="articles">
+        <h2 class="section-title">Articles</h2>
+        <div class="articles">
+          <div class="article">
+            <img src="./img/article.jpg" alt="記事サムネイル" class="article-image">
+            <h3>記事のタイトル</h3>
+            <p>こんな記事を書きました。記事のブロックはflex-boxですこんな記事を書きました。記事のブロックはflex-boxです</p>
+          </div>
+          <div class="article">
+            <img src="./img/article.jpg" alt="記事サムネイル" class="article-image">
+            <h3>記事のタイトル</h3>
+            <p>こんな記事を書きました。記事のブロックはflex-boxですこんな記事を書きました。記事のブロックはflex-boxです</p>
+          </div>
+          <div class="article">
+            <img src="./img/article.jpg" alt="記事サムネイル" class="article-image">
+            <h3>記事のタイトル</h3>
+            <p>こんな記事を書きました。記事のブロックはflex-boxですこんな記事を書きました。記事のブロックはflex-boxです</p>
+          </div>
+          <div class="article">
+            <img src="./img/article.jpg" alt="記事サムネイル" class="article-image">
+            <h3>記事のタイトル</h3>
+            <p>こんな記事を書きました。記事のブロックはflex-boxですこんな記事を書きました。記事のブロックはflex-boxです</p>
+          </div>
+
+        </div>
+       </section>
 
     </main>
 
     <!-- フッター -->
+    <footer class="footer">
+      <p>&copy; 2025 Profile</p>
+    </footer>
 
   </div>
 </body>
